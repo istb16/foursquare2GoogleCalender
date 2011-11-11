@@ -1,0 +1,103 @@
+#header h1 {
+	background-image: none;
+	padding: 0;
+	font-size: 2em;
+	text-shadow: 0px 0px 1px #ffffff,
+		0px 0px 10px #ffd700,
+		0px 0px 20px #ffd700,
+		0px 0px 30px #ffd700,
+		0px 0px 40px #ffd700;
+	background-color: #000;
+}
+
+#header h1 a {
+	background-color: #000;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	white-space: nowrap;
+}
+
+#header h1 a:hover {
+	background-color: #000;
+}
+
+#footer {
+	text-align: center;
+}
+
+body {
+	background-color: #000;
+}
+
+h2 {
+	color: #111;
+	border-bottom: 1px solid #888;
+}
+
+#container {
+	margin: 0 auto;
+	padding: 10px 10px 40px 10px;
+	max-width: 940px;
+}
+
+#content {
+	min-height: 400px;
+	min-width: 280px;
+}
+
+.span1 { width: 40px; }
+.span2 { width: 80px; }
+.span3 { width: 120px; }
+.span4 { width: 160px; }
+.span5 { width: 200px; }
+.span6 { width: 240px; }
+.span7 { width: 280px; }
+.span8 { width: 320px; }
+.span9 { width: 360px; }
+.span10 { width: 400px; }
+.span11 { width: 440px; }
+.span12 { width: 480px; }
+.span13 { width: 520px; }
+.span14 { width: 560px; }
+.span15 { width: 600px; }
+.span16 { width: 640px; }
+
+.span1liquid { max-width: 40px; }
+.span2liquid { max-width: 80px; }
+.span3liquid { max-width: 120px; }
+.span4liquid { max-width: 160px; }
+.span5liquid { max-width: 200px; }
+.span6liquid { max-width: 240px; }
+.span7liquid { max-width: 280px; }
+.span8liquid { max-width: 320px; }
+.span9liquid { max-width: 360px; }
+.span10liquid { max-width: 400px; }
+.span11liquid { max-width: 440px; }
+.span12liquid { max-width: 480px; }
+.span13liquid { max-width: 520px; }
+.span14liquid { max-width: 560px; }
+.span15liquid { max-width: 600px; }
+.span16liquid { max-width: 640px; }
+
+.row {
+	margin-left: -20px;
+	zoom: 1;
+}
+
+.row > [class*="span"] {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+}
+
+.space1 { width: 10px;}
+.space2 { width: 20px;}
+
+.row > [class*="space"] {
+	float: left;
+}
+
+.row::after {
+	content: "";
+    display: block;
+	clear: both;
+}
